@@ -527,20 +527,21 @@ input[type=checkbox]{
     padding: 4rem 7rem;
 }
 .footer_section{
-    background-color: #06162d;
+    background-color: #0a2d5d;
 }
 .footer_logo{
-    width: 30%;
+    width: 40%;
+    text-align: center;
 }
 .footer_images{
     width: 30%;
     margin: 0rem 7rem;
 }
 .footer_text{
-    width: 40%;
+    width: 80%;
 }
 .footer_logo img{
-    width: 230px;
+    width: 250px;
 }
 .footer_images img{
     width: 28px;
@@ -634,7 +635,7 @@ input[type=checkbox]{
 .eight_section_left_content h1{
     position: absolute;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 11rem;
+    font-size: 6rem;
     top: 9rem;
     left: 20px;
 }
@@ -761,7 +762,7 @@ input[type=checkbox]{
 .eight_section_left_content h1{
     position: absolute;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 10rem;
+    font-size: 5rem;
     top: 4rem;
     left: 20px;
 }
@@ -972,7 +973,6 @@ input[type=checkbox]{
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: 6rem;
-    background: url("https://i.postimg.cc/YSxy9vQS/pyrrha-device-opt-648ee479.png") fixed;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 450px;
@@ -980,7 +980,7 @@ input[type=checkbox]{
 .eight_section_left_content h1{
     position: absolute;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 5.5rem;
+    font-size: 3rem;
     top: 4rem;
     left: 20px;
 }
@@ -1020,7 +1020,7 @@ input[type=checkbox]{
 .footer_section_content{
     width: 100%;
     flex-direction: column;
-    padding: 4rem 7rem;
+    padding: 4rem 4rem;
 }
 .footer_logo{
     width: 100%;
@@ -1074,5 +1074,9 @@ input[type=checkbox]{
      background-size: 100% 100%;
     width: 100%;
   }
+
+  .footer_logo img{
+    width: 200px;
+}
    
 }

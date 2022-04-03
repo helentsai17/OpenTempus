@@ -18,38 +18,38 @@ const Header = () => {
             </div>
             <div className={style.second_header_buttons}>
                <div className={style.second_header_all_buttons}>
-                    <div className={style.first_button}>
+                    <a href='https://github.com/Agrolly-LLC/Agrolly-Data-Science' className={style.first_button}>
                         <div>
                           <img src="/asset/github_logo.png" alt=""/>
                         </div>
                         <div>
                           <p>Protocol Code</p>
                         </div> 
-                    </div>
-                    <div className={style.second_button}>
+                    </a>
+                    <a href='http://agrolly-web.mybluemix.net/' className={style.second_button}>
                         <div>
                           <img src="/asset/owl_logo.png" alt=""/>
                         </div>
                         <div>
                           <p>Agrolly</p>
                         </div> 
-                    </div>
-                    <div className={style.third_button}>
+                    </a>
+                    <a href='https://www.linuxfoundation.org/projects/call-for-code/' className={style.third_button}>
                         <div>
                           <img src="/asset/tlf_logo.png" alt=""/>
                         </div>
                         <div>
                           <p>The Linux Foundation</p>
                         </div> 
-                    </div>
-                    <div className={style.fourth_button}>
+                    </a>
+                    <a href='https://developer.ibm.com/callforcode/' className={style.fourth_button}>
                         <div>
                           <img src="/asset/cr_logo.png" alt=""/>
                         </div>
                         <div>
                           <p>Call For Code</p>
                         </div> 
-                    </div>
+                    </a>
                </div>
             </div>
        </div>

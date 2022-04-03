@@ -14,10 +14,10 @@ const Team = () => {
                 </div>
             </div>
             <div className={style.ninth_section_image_content}>
-                <Teammember image={"/asset/team/Manoela.jpg"} name={"Manoela Morais"} />
-                <Teammember image={"/asset/team/Ajinkya.png"} name={"Ajinkya Datalkar"} />
-                <Teammember image={"/asset/team/HelenTsai.png"} name={"Helen Tsai"} />
-                <Teammember image={"/asset/team/Chimegsaikhan.jpg"} name={"Chimka Munkhbayar"} />
+                <Teammember image={"/asset/team/Manoela.jpg"} name={"Manoela Morais"} linkedin={"https://www.linkedin.com/in/manoelamorais/"}  />
+                <Teammember image={"/asset/team/Ajinkya.png"} name={"Ajinkya Datalkar"}  linkedin={"https://www.linkedin.com/in/ajinkya-datalkar/"}/>
+                <Teammember image={"/asset/team/HelenTsai.png"} name={"Helen Tsai"}  linkedin={"https://www.linkedin.com/in/chimka-munkhbayar-0ab421b5/"}/>
+                <Teammember image={"/asset/team/Chimegsaikhan.jpg"} name={"Chimka Munkhbayar"}  linkedin={"https://www.linkedin.com/in/helen-tsai-teyi/"}/>
             </div>
         </div>
     )

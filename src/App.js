@@ -5,6 +5,7 @@ import ImageContent from './component/imageContent';
 import Openlink from './component/openlink';
 import Partner from './component/partner';
 import Team from './component/team';
+import Footer from './component/footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
        <Partner/>
        <ImageContent/>
        <Team/>
+       <Footer/>
      </div>
     </div>
   );

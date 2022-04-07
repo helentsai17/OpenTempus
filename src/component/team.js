@@ -1,6 +1,10 @@
 import React from 'react'
 import style from './home.module.css'
 import Teammember from './teammember'
+import Manoela from './image/team/Manoela.jpg'
+import Ajinkya from './image/team/Ajinkya.png'
+import Helen from './image/team/HelenTsai.png'
+import Chimegsaikhan from './image/team/Chimegsaikhan.jpg'
 
 const Team = () => {
     return (
@@ -14,10 +18,10 @@ const Team = () => {
                 </div>
             </div>
             <div className={style.ninth_section_image_content}>
-                <Teammember image={`${window.location.origin}/asset/team/Manoela.jpg`} name={"Manoela Morais"} linkedin={"https://www.linkedin.com/in/manoelamorais/"}  />
-                <Teammember image={`${window.location.origin}/asset/team/Ajinkya.png`} name={"Ajinkya Datalkar"}  linkedin={"https://www.linkedin.com/in/ajinkya-datalkar/"}/>
-                <Teammember image={"/asset/team/HelenTsai.png"} name={"Helen Tsai"}  linkedin={"https://www.linkedin.com/in/chimka-munkhbayar-0ab421b5/"}/>
-                <Teammember image={"/asset/team/Chimegsaikhan.jpg"} name={"Chimka Munkhbayar"}  linkedin={"https://www.linkedin.com/in/helen-tsai-teyi/"}/>
+                <Teammember image={Manoela} name={"Manoela Morais"} linkedin={"https://www.linkedin.com/in/manoelamorais/"}  />
+                <Teammember image={Ajinkya} name={"Ajinkya Datalkar"}  linkedin={"https://www.linkedin.com/in/ajinkya-datalkar/"}/>
+                <Teammember image={Helen} name={"Helen Tsai"}  linkedin={"https://www.linkedin.com/in/chimka-munkhbayar-0ab421b5/"}/>
+                <Teammember image={Chimegsaikhan} name={"Chimka Munkhbayar"}  linkedin={"https://www.linkedin.com/in/helen-tsai-teyi/"}/>
             </div>
         </div>
     )

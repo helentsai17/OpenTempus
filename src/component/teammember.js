@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './home.module.css'
 
+
 const Teammember = (props) => {
     return (
         <div className={style.team_image_content}>

@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './home.module.css'
+import ibmlogo from './image/ibm_logo.png'
 
 const Partner = () => {
     return (
@@ -10,10 +11,10 @@ const Partner = () => {
                     <h2></h2>
                 </div>
                 <div className={style.seventh_section_logo}>
-                    <img src="/asset/ibm_logo.png" alt="" />
-                    <img src="/asset/ibm_logo.png" alt="" />
-                    <img src="/asset/ibm_logo.png" alt="" />
-                    <img src="/asset/ibm_logo.png" alt="" />
+                    <img src={ibmlogo} alt="" />
+                    <img src={ibmlogo} alt="" />
+                    <img src={ibmlogo} alt="" />
+                    <img src={ibmlogo} alt="" />
                 </div>
             </div>
         </div>

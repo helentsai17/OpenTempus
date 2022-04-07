@@ -1,17 +1,19 @@
 import React from 'react'
 import style from './home.module.css'
+import logo from './image/OpenTempusleftright.png'
+import githubLogo from './image/github_logo.png'
+import slackLogo from './image/logoSlackLight.png'
 
 function Footer() {
   return (
     <div className={style.footer_section}>
     <div className={style.footer_section_content}>
         <div className={style.footer_logo}>
-           <img src="/asset/OpenTempusleftright.png" alt=""/>
+           <img src={logo} alt=""/>
         </div>
         <div className={style.footer_images}>
-         <a href="https://github.com/Call-for-Code/ClusterDuck-Protocol"><img src="/asset/github_logo.png" alt=""/></a>
-         {/* <a href="https://www.youtube.com/channel/UCsQPZNes8Vov_nWSh1huk2w"><img className={style.youtube_logo} src="/asset/youtube_button.png" alt=""/></a> */}
-         <a href="https://www.project-owl.com/slack"><img src="/asset/logoSlackLight.png" alt=""/></a>
+         <a href="https://github.com/Agrolly-LLC/Agrolly-Data-Science"><img src={githubLogo} alt=""/></a>
+         <a href="https://callforcode.slack.com/archives/C01J10FEC95"><img src={slackLogo} alt=""/></a>
         </div>
         <div className={style.footer_text}>
           <p className={style.footer_first_text}>Copyright © 2022 OpenTempus Protocol a Series of LF Projects, LLC.</p>

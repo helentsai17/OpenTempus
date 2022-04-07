@@ -1,6 +1,10 @@
 import React from 'react'
 import style from './home.module.css'
 import background from './midia/heading.jpg'
+import logo from './image/OpenTempusLogo.png'
+import githublogo from './image/github_logo.png'
+import LFlogo from './image/tlf_logo.png'
+import callforcode from './image/cr_logo.png'
 
 const Header = () => {
   return (
@@ -8,7 +12,7 @@ const Header = () => {
     <div className={style.second_header}>
        <div className={style.second_header_section}>
             <div className={style.second_header_logo}>
-               <img src="/asset/OpenTempusLogo.png" alt=""/>
+               <img src={logo} alt=""/>
             </div>
             <div className={style.second_header_text}>
                 <p>OpenTempus is an open source solution using machine learnig model to prodict weather information <br/> and suporting farmer to fight climate change. This code can be used to to run climate prodiction <br/> according to your longitude and latitude</p>
@@ -20,7 +24,7 @@ const Header = () => {
                <div className={style.second_header_all_buttons}>
                     <a href='https://github.com/Agrolly-LLC/Agrolly-Data-Science' className={style.first_button}>
                         <div>
-                          <img src="/asset/github_logo.png" alt=""/>
+                          <img src={githublogo} alt=""/>
                         </div>
                         <div>
                           <p>Protocol Code</p>
@@ -28,7 +32,7 @@ const Header = () => {
                     </a>
                     <a href='http://agrolly-web.mybluemix.net/' className={style.second_button}>
                         <div>
-                          <img src="/asset/owl_logo.png" alt=""/>
+                          <img src="" alt=""/>
                         </div>
                         <div>
                           <p>Agrolly</p>
@@ -36,7 +40,7 @@ const Header = () => {
                     </a>
                     <a href='https://www.linuxfoundation.org/projects/call-for-code/' className={style.third_button}>
                         <div>
-                          <img src="/asset/tlf_logo.png" alt=""/>
+                          <img src={LFlogo} alt=""/>
                         </div>
                         <div>
                           <p>The Linux Foundation</p>
@@ -44,7 +48,7 @@ const Header = () => {
                     </a>
                     <a href='https://developer.ibm.com/callforcode/' className={style.fourth_button}>
                         <div>
-                          <img src="/asset/cr_logo.png" alt=""/>
+                          <img src={callforcode} alt=""/>
                         </div>
                         <div>
                           <p>Call For Code</p>

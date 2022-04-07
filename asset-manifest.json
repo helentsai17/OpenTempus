@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/opentempus/static/css/main.806e12a5.css",
+    "main.js": "/opentempus/static/js/main.0cd15c62.js",
+    "static/media/heading.jpg": "/opentempus/static/media/heading.bbf49ff20cdc84e593a2.jpg",
+    "index.html": "/opentempus/index.html",
+    "main.806e12a5.css.map": "/opentempus/static/css/main.806e12a5.css.map",
+    "main.0cd15c62.js.map": "/opentempus/static/js/main.0cd15c62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.806e12a5.css",
+    "static/js/main.0cd15c62.js"
+  ]
+}
